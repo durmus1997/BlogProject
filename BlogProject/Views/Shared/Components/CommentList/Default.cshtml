@@ -1,0 +1,6 @@
+﻿@model IEnumerable<BlogProject.Models.UserComment>
+
+@foreach (var comment in Model){
+    <p>@comment.ID</p>
+    <p>@comment.UserName</p>
+}
